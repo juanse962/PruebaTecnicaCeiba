@@ -8,5 +8,5 @@ Feature: Saucedemo
       | <email> | <password> |
     Then he must display a message PRODUCTS
     Examples:
-      | email                   | password |
-      | standard_user           | secret_sauce |
+      | email         | password     |
+      | standard_user | secret_sauce |
