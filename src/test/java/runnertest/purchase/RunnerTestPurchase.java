@@ -1,4 +1,4 @@
-package runnertest.product;
+package runnertest.purchase;
 
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = {"stepdefenitions"},
-        features = {"src/test/resources/feature/product/product.feature"},
-        plugin = {"pretty", "html:target/cucumber", "json:target/runnertest.product.RunnerTestProduct.json"},
+        features = {"src/test/resources/feature/purchase/purchase.feature"},
+        plugin = {"pretty", "html:target/cucumber", "json:target/runnertest.purchase.RunnerTestPurchase.json"},
         tags = "@smoke",
         snippets = SnippetType.UNDERSCORE
 )
-public class RunnerTestProduct {
+public class RunnerTestPurchase {
 }

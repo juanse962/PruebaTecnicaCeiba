@@ -9,6 +9,7 @@ import static userinterface.LoginManagement.HOME_PAGE;
 
 public class Answer implements Question<Boolean> {
     private String question;
+
     public static Answer toThe(String question) {
         return new Answer(question);
     }

@@ -5,7 +5,7 @@ public class Random {
         int min = 10000;
         int max = 90000;
 
-        String random_int = String.valueOf((int)Math.floor(Math.random()*(max-min+1)+min));
-        return ""+ random_int;
+        String random_int = String.valueOf((int) Math.floor(Math.random() * (max - min + 1) + min));
+        return "" + random_int;
     }
 }
