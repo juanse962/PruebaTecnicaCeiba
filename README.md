@@ -3,7 +3,7 @@
 ## Documentación
 En la siguiente ruta del proyecto se encuentra tanto el plan de prueba con los items propuestos y el reporte de bugs:
 
-* PruebaTecnicaCeiba\documentación\Plan de pruebas.docx
+* PruebaTecnicaCeiba\documentación\Plan_de_pruebas.docx
 * PruebaTecnicaCeiba\documentación\Reporte_de_bugs.pdf
 
 ## Ejecución
@@ -27,4 +27,3 @@ gradle test aggregate
 | 01 | Login de usuario |
 | 02 | Adición del producto “Sauce Labs Fleece Jacket” (standard_user) |
 | 03 | Confirmar compra (standard_user) |
-
